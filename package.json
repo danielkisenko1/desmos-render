@@ -1,0 +1,28 @@
+
+{
+  "name": "desmos-ascii-render",
+  "version": "1.0.3",
+  "description": "Terminal-based Desmos-style ASCII graphing CLI with colors, zoom, pan, and annotations",
+  "main": "cli-grapher.js",
+  "bin": {
+    "desmos-ascii-render": "./cli-grapher.js"
+  },
+  "scripts": {
+    "start": "node cli-grapher.js"
+  },
+  "keywords": [
+    "ascii",
+    "graph",
+    "terminal",
+    "cli",
+    "math",
+    "plot",
+    "desmos"
+  ],
+  "author": "Daniel Kisenko",
+  "license": "MIT",
+  "dependencies": {
+    "mathjs": "^11.8.0",
+    "yargs": "^17.7.2"
+  }
+}
