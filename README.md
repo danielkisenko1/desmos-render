@@ -17,21 +17,22 @@ npm install -g desmos-ascii-render
 
 Plot a single curve:
 
-\`\`\`bash
+
+```bash
 desmos-ascii-render -e "y=sin(x)"
-\`\`\`
+```
 
 Multiple curves:
 
-\`\`\`bash
+```bash
 desmos-ascii-render -e "y=sin(x)" -e "y=cos(x)"
-\`\`\`
+```
 
 High-frequency curves:
 
-\`\`\`bash
+```bash
 desmos-ascii-render -e "y=sin(10*x)" --xmin -10 --xmax 10 --ymin -2 --ymax 2
-\`\`\`
+```
 
 ---
 
@@ -80,29 +81,29 @@ desmos-ascii-render -e "y=sin(10*x)" --xmin -10 --xmax 10 --ymin -2 --ymax 2
 
 Multiple curves with evaluation:
 
-\`\`\`bash
+```bash
 desmos-ascii-render -e "y=sin(x)" -e "y=cos(x)" \
   --eval "sin(x)" --x 1.57 --mark --label "(π/2,1)" \
   --eval "cos(x)" --x 3.1416 --mark --label "cos(π)=-1"
-\`\`\`
+```
 
 Zoom and Pan:
 
-\`\`\`bash
+```bash
 desmos-ascii-render -e "y=sin(x)" --zoom 2 --panx 2 --pany 0
-\`\`\`
+```
 
 Implicit plot (circle):
 
-\`\`\`bash
+```bash
 desmos-ascii-render -e "x^2 + y^2 - 9"
-\`\`\`
+```
 
 High-frequency sine:
 
-\`\`\`bash
+```bash
 desmos-ascii-render -e "y=sin(10*x)" --xmin -10 --xmax 10 --ymin -2 --ymax 2
-\`\`\`
+```
 
 ---
 
@@ -123,9 +124,9 @@ desmos-ascii-render -e "y=sin(10*x)" --xmin -10 --xmax 10 --ymin -2 --ymax 2
 
 If you have already installed desmos-ascii-render and a new version is published:
 
-\`\`\`bash
+```bash
 npm install -g desmos-ascii-render
-\`\`\`
+```
 
 This updates to the latest version, including any fixes like ESM compatibility.
 
