@@ -7,9 +7,9 @@ Plot explicit and implicit functions, evaluate points, and annotate directly in 
 
 Globally via npm:
 
-\`\`\`bash
+```bash
 npm install -g desmos-ascii-render
-\`\`\`
+```
 
 ---
 
